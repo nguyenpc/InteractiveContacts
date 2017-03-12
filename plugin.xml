@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-interactive-contacts" version="0.0.1" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+	<name>InteractiveContacts</name>
+	<js-module name="InteractiveContacts" src="www/InteractiveContacts.js">
+		<clobbers target="cordova.plugins.InteractiveContacts"/>
+	</js-module>
+	<platform name="android">
+		<config-file parent="/*" target="res/xml/config.xml">
+			<feature name="InteractiveContacts">
+				<param name="android-package" value="org.apache.cordova.interactivecontacts.InteractiveContacts"/>
+			</feature>
+		</config-file>
+		<config-file parent="/*" target="AndroidManifest.xml"/>
+		<source-file src="src/android/InteractiveContacts.java" target-dir="src/org/apache/cordova/interactivecontacts/InteractiveContacts"/>
+	</platform>
+</plugin>
