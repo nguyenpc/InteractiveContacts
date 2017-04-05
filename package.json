@@ -1,0 +1,25 @@
+{
+  "name": "InteractiveContactsPlugin",
+  "version": "0.0.1",
+  "description": "A cordova plugin which provides interactive UI while adding contacts",
+  "cordova": {
+    "id": "cordova-plugin-interactive-contacts",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yogeshkrishnani/InteractiveContacts.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Yogesh Krishnani",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/yogeshkrishnani/InteractiveContacts/issues"
+  },
+  "homepage": "https://github.com/yogeshkrishnani/InteractiveContacts#readme"
+}
