@@ -1,5 +1,5 @@
 {
-  "name": "InteractiveContactsPlugin",
+  "name": "cordova-plugin-interactive-contacts",
   "version": "0.0.1",
   "description": "A cordova plugin which provides interactive UI while adding contacts",
   "cordova": {
