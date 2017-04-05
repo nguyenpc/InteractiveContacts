@@ -25,7 +25,7 @@ public class InteractiveContacts extends CordovaPlugin  {
             
             System.out.println("contactDetails: " + contactDetails);
             
-            if(contactDetails != null && !contactDetails.optString("phone").isEmpty()) {
+            if(contactDetails != null && !contactDetails.optString("name").isEmpty()) {
                 
                 this.addContact(contactDetails, callbackContext);
                 success =  true;

@@ -1,5 +1,9 @@
 var exec = require('cordova/exec');
 
-exports.coolMethod = function(arg0, success, error) {
-    exec(success, error, "InteractiveContacts", "coolMethod", [arg0]);
+function InteractiveContacts() {}
+
+InteractiveContacts.prototype.addContact = function(contact, success, error) {
+    exec(success, error, "InteractiveContacts", "addContact", [contact]);
 };
+
+module.exports = new InteractiveContacts();
