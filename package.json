@@ -14,7 +14,12 @@
   },
   "keywords": [
     "ecosystem:cordova",
-    "cordova-android"
+    "cordova-android",
+    "cordova-contacts",
+    "interactive-contacts",
+    "interactive",
+    "cordova-interactive-contacts",
+    "android-contacts"
   ],
   "author": "Yogesh Krishnani",
   "license": "Apache-2.0",
