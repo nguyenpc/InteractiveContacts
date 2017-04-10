@@ -1,6 +1,6 @@
 ---
 title: InteractiveContacts
-description: A cordova plugin which provides native interaction while adding contacts
+description: A cordova plugin which provides native interaction while adding or updating contacts
 ---
 
 
@@ -12,6 +12,10 @@ This requires cordova 5.0+ ( current stable v0.0.1 )
 
     cordova plugin add cordova-plugin-interactive-contacts
     
+### Supported Platforms
+
+- Android
+
 ## Add Contact
 ### Usage
 
