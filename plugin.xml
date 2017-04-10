@@ -10,7 +10,9 @@
 				<param name="android-package" value="org.apache.cordova.interactivecontacts.InteractiveContacts"/>
 			</feature>
 		</config-file>
-		<config-file parent="/*" target="AndroidManifest.xml"/>
-		<source-file src="src/android/InteractiveContacts.java" target-dir="src/org/apache/cordova/interactivecontacts/InteractiveContacts"/>
+		<config-file target="AndroidManifest.xml" parent="/*">
+			<uses-permission android:name="android.permission.READ_CONTACTS"/>
+		</config-file>
+		<source-file src="src/android/InteractiveContacts.java" target-dir="src/org/apache/cordova/interactivecontacts"/>
 	</platform>
 </plugin>
