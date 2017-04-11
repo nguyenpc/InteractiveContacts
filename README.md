@@ -16,6 +16,10 @@ This requires cordova 5.0+ ( current stable v0.0.1 )
 
 - Android
 
+### Demo
+
+Here is the [Demo Project](https://github.com/yogeshkrishnani/InteractiveContactsDemo)
+
 ## Add Contact
 ### Usage
 
